@@ -1,0 +1,46 @@
+# NixOS SLIM Theme
+# @ylwghst, ylwghst@onionmail.info
+
+# Background (stretch, tile)
+background_style        tile
+
+# Panel
+input_panel_x           50%
+input_panel_y           50%
+
+# Input
+input_font              Liberation Sans:size=14:dpi=96
+input_color             #A2A2A2
+input_name_x            3
+input_name_y            214
+
+# Input request
+username_font           Liberation Sans:size=14:dpi=96
+username_color          #A2A2A2
+username_x              3
+username_y              220
+password_x              3
+password_y              220
+username_msg            ________________
+password_msg            ________________
+
+# Messages (shutdown, session options, etc)
+msg_color               #A2A2A2
+msg_font                Liberation Sans:size=14:dpi=96
+msg_x                   50%
+msg_y                   86%
+shutdown_msg            Halt...
+reboot_msg              Restart...
+
+# Welcome message
+welcome_x               51
+welcome_y               164
+welcome_font            Liberation Sans:size=16:bold:dpi=96
+welcome_color           #000000
+welcome_msg             NixOS
+
+# Session name
+session_x               50%
+session_font            Liberation Sans:size=14:dpi=96
+session_color           #A2A2A2
+session_msg             Session
